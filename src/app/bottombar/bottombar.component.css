@@ -1,0 +1,20 @@
+#btmbar{
+    position:absolute;
+    width: 100%;
+    bottom: 20px;
+}
+#section {
+    width: 50%;
+    height: 20px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+div#one {
+    width: 50%;
+    float: left;
+    
+}
+.border{
+    border: solid 3px green;
+}
