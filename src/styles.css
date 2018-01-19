@@ -2,6 +2,10 @@
     width: 100%;
     text-align: center;
 }
+.toptile{
+    font-size:2em; 
+    padding: 20px 0;
+}
 .page{
     color: green;
     font-size: 1.6em;
