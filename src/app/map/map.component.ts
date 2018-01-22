@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Http } from '@angular/http';
-import { NgClass } from '@angular/common';
 
 @Component({
     selector: 'app-map',
@@ -25,8 +24,8 @@ export class MapComponent implements OnInit {
         }, 5000);
 
     }
-    myclass = false;
-    mtclassy1 = true;
+    myclass = true;
+    mtclassy1 = false;
     myjson = {}
     mydata;
     arrayfor;
