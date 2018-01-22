@@ -29,7 +29,6 @@ export class MapComponent implements OnInit {
     mtclassy1 = true;
     myjson = {}
     mydata;
-    arrayfor;
     parsedata;
     boothclick(booth) {
         console.log('clicked: ' + booth);
