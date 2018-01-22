@@ -6,7 +6,7 @@ import { NgClass } from '@angular/common';
     selector: 'app-map',
     template: `<div class='title page'>Maps</div>
         
-        <div style="padding:25px;" *ngFor="let x of parsedata; let i = index">
+        <div style="padding:15px 25px 0px;" *ngFor="let x of parsedata; let i = index">
         <div [ngClass]="{'classy': myclass, 'classiest': mtclassy1}" (click)='boothclick(i)'>{{x.id}} - {{x.name}} - {{x.detail}}</div>
         </div>
         <div style='padding:25px;'>{{mydata}}</div>
