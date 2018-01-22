@@ -9,6 +9,8 @@ import { TopComponent } from './topbar/topbar.component';
 
 import { RouterModule, Routes, ActivatedRoute } from '@angular/router';
 
+import { HttpModule } from '@angular/http';
+
 const appRoutes: Routes = [
   {
     path: 'map',
@@ -40,7 +42,8 @@ const appRoutes: Routes = [
     RouterModule.forRoot(
       appRoutes,
       // { enableTracing: true } // <-- debugging purposes only
-    )
+    ),
+    HttpModule
   ],
   exports: [RouterModule],
   providers: [],
