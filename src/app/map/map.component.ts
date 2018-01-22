@@ -24,8 +24,8 @@ export class MapComponent implements OnInit {
         }, 5000);
 
     }
-    myclass = true;
-    mtclassy1 = false;
+    myclass = false;
+    mtclassy1 = true;
     myjson = {}
     mydata;
     arrayfor;
