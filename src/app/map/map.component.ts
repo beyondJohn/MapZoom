@@ -20,15 +20,16 @@ export class MapComponent implements OnInit {
     }
     ngOnInit() {
         this.myget();
-        // setInterval(() => {
-        //     this.myget();
-        // }, 5000);
+        setInterval(() => {
+            this.myget();
+        }, 5000);
 
     }
     myclass = false;
     mtclassy1 = true;
     myjson = {}
     mydata;
+    arrayfor;
     parsedata;
     boothclick(booth) {
         console.log('clicked: ' + booth);
