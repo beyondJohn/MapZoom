@@ -1,4 +1,4 @@
-## Live example can be found at [https:switchmagic.com:3600](https:switchmagic.com:3600)
+## Live example can be found at [https://switchmagic.com:3600](https://switchmagic.com:3600)
 
 ## View on mobile device or shrink browser width as small as possible to test on PC
 
