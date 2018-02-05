@@ -1,3 +1,7 @@
+## Live example can be found at https:switchmagic.com:3600
+
+## View on mobile device or shrink browser width as small as possible to test on PC
+
 # Dynamic
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.5.
